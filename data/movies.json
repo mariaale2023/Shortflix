@@ -16,7 +16,24 @@
     "title": "Sand Castle",
     "type": "short",
     "url": "https://www.youtube.com/watch?v=7HS6V0S7YbM",
-    "country": "Canada"
+    "country": "Canada",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "gorge_alt",
+      "userId": "6472a0f7bce995ad4b0ec274"
+    },
+    "id": "64729febc6c9137e388ef706",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   },
   {
     "actors": [
@@ -34,7 +51,24 @@
     "title": "POWER/RANGERS UNAUTHORIZED",
     "type": "short",
     "country": "USA",
-    "url": "https://www.youtube.com/watch?v=vw5vcUPyL90"
+    "url": "https://www.youtube.com/watch?v=vw5vcUPyL90",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "gorge_alt",
+      "userId": "6472a0f7bce995ad4b0ec274"
+    },
+    "id": "64729ff08abd14a2697d089b",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   },
   {
     "actors": ["Francesco Formichetti", "Giulia Montalti", "Sole Sun"],
@@ -47,7 +81,24 @@
     "title": "n3trunner (Netrunner)",
     "type": "short",
     "country": "Italy",
-    "url": "https://www.youtube.com/watch?v=tcHd9e-gNL4"
+    "url": "https://www.youtube.com/watch?v=tcHd9e-gNL4",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "mariaale",
+      "userId": "64729f9c4c0ccf42b7466d84"
+    },
+    "id": "6472a0d4571aa8b37443e40d",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   },
   {
     "actors": ["Stephan Zlotescu", "Jen Oda"],
@@ -60,7 +111,24 @@
     "title": "True Skin",
     "country": "Thailand",
     "type": "short",
-    "url": "https://www.youtube.com/watch?v=hoj4Qv7nrN8"
+    "url": "https://www.youtube.com/watch?v=hoj4Qv7nrN8",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "mariaale",
+      "userId": "64729f9c4c0ccf42b7466d84"
+    },
+    "id": "6472a0c71a17601573d6644e",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   },
   {
     "actors": [
@@ -82,7 +150,24 @@
     "title": "Singularity",
     "country": "USA",
     "type": "short",
-    "url": "https://www.youtube.com/watch?v=FpoSxh--5qE"
+    "url": "https://www.youtube.com/watch?v=FpoSxh--5qE",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "mariaale",
+      "userId": "64729f9c4c0ccf42b7466d84"
+    },
+    "id": "6472a09bff1494d075f92b77",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   },
   {
     "actors": ["Danny Shayler", "David Sayers", "Susanne Wuest"],
@@ -95,7 +180,24 @@
     "title": "The Shaman",
     "country": "United Kingdom",
     "type": "short",
-    "url": "https://www.youtube.com/watch?v=80EQZaYV9TA"
+    "url": "https://www.youtube.com/watch?v=80EQZaYV9TA",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "anto_peque",
+      "userId": "64729f9c4c0ccf42b7466d84"
+    },
+    "id": "6472a117b554e4c60dbd5220",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   },
   {
     "actors": ["Quinn Nealy", "Sam Brown"],
@@ -108,7 +210,24 @@
     "title": "The Present",
     "country": "Germany",
     "type": "short",
-    "url": "https://www.youtube.com/watch?v=GrW8Is6j4Mg"
+    "url": "https://www.youtube.com/watch?v=GrW8Is6j4Mg",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "anto_peque",
+      "userId": "64729f9c4c0ccf42b7466d84"
+    },
+    "id": "6472a117b554e4c60dbd5220",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   },
   {
     "actors": [
@@ -128,7 +247,24 @@
     "title": "Uncanny Valley",
     "country": "Argentina",
     "type": "short",
-    "url": "https://www.youtube.com/watch?v=UXX0TRtg5Vk"
+    "url": "https://www.youtube.com/watch?v=UXX0TRtg5Vk",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "mariaale",
+      "userId": "64729f9c4c0ccf42b7466d84"
+    },
+    "id": "6472a05477383af612f93f81",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   },
   {
     "actors": [
@@ -147,6 +283,23 @@
     "title": "Darth Maul: Apprentice",
     "country": "Germany",
     "type": "short",
-    "url": "https://www.youtube.com/watch?v=Djo_91jN3Pk"
+    "url": "https://www.youtube.com/watch?v=Djo_91jN3Pk",
+    "reviews": [
+      {
+        "id": "603b1f330b7e9a3c82a74f02",
+        "userId": "603b1e0b0b7e9a3c82a74eff",
+        "rating": 4.5,
+        "content": "This movie was amazing!",
+        "timestamp": "2022-03-01T10:30:00Z"
+      }
+    ],
+    "userCreator": {
+      "userName": "mariaale",
+      "userId": "64729f9c4c0ccf42b7466d84"
+    },
+    "id": "6472a03fe2a4ea55d8a5ab03",
+    "releaseYear": "",
+    "likes": 0,
+    "dislikes": 0
   }
 ]
