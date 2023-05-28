@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/mariaale2023/Shortflix/issues"
   },
-  "homepage": "https://github.com/mariaale2023/Shortflix#readme"
+  "homepage": "https://github.com/mariaale2023/Shortflix#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
 }
