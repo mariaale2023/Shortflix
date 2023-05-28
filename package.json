@@ -1,0 +1,19 @@
+{
+  "name": "shortflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaale2023/Shortflix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariaale2023/Shortflix/issues"
+  },
+  "homepage": "https://github.com/mariaale2023/Shortflix#readme"
+}
