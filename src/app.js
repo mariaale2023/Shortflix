@@ -2,8 +2,8 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const movieSchema = require("./schema/movieSchema");
-const userSchema = require("./schema/userSchema");
-const mongoose = require("mongoose");
+// const userSchema = require("./schema/userSchema");
+// const mongoose = require("mongoose");
 
 app.use(express.json());
 app.use(cors());
