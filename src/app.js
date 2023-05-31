@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 const movieSchema = require("./schema/movieSchema");
 const userSchema = require("./schema/useSchema");
-const formatMovie = require("./util/formatMovie");
+const formatMovieId = require("./util/formatMovie");
 const formatUser = require("./util/formatUser");
 const mongoose = require("mongoose");
 
@@ -14,10 +14,11 @@ const validId = (id) => {
   return mongoose.Types.ObjectId.isValid(id);
 };
 
-// READ
+// READ REQUEST
+
 app.get("/movies", async (req, res) => {
   const movies = await movieSchema.find({});
-  return res.status(200).send(movies.map(formatMovie));
+  return res.status(200).send(movies.map(formatMovieId));
 });
 
 app.get("/movies/:id", async (req, res) => {
@@ -30,7 +31,7 @@ app.get("/movies/:id", async (req, res) => {
   }
 
   const singleMovie = await movieSchema.findById(id);
-  const formatedMovie = formatMovie(singleMovie);
+  const formatedMovie = formatMovieId(singleMovie);
   // If the reservation is not found
   if (!formatedMovie) {
     return res.status(404).send({ message: "Movie not found" });
@@ -44,6 +45,23 @@ app.get("/users", async (req, res) => {
   return res.status(200).send(users.map(formatUser));
 });
 
-// CREATE
+// CREATE REQUEST
+
+app.post("/movies", async (req, res) => {
+  const newMovie = new movieSchema({
+    title: req.body.title,
+    director: req.body.director,
+    actors: req.body.actors,
+    imagen: req.body.imagen,
+    url: req.body.url,
+    genres: req.body.genres,
+    country: req.body.country,
+    year: req.body.year,
+    synopsis: req.body.synopsis,
+  });
+
+  await newMovie.save();
+  res.status(201).json(formatMovieId(newMovie));
+});
 
 module.exports = app;
