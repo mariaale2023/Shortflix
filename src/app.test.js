@@ -2,7 +2,7 @@ const request = require("supertest");
 const app = require("./app");
 
 describe("test all routes app.js", () => {
-  test("GET List Movies and 200 status", async (done) => {
+  test("GET List Movies and 200 status", async () => {
     const expectedStatus = 200;
     const expectedBody = [
       {
@@ -144,7 +144,6 @@ describe("test all routes app.js", () => {
       .expect(expectedStatus)
       .expect((response) => {
         expect(response.body).toEqual(expectedBody);
-        done();
       });
   });
 });
