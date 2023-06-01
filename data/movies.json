@@ -17,15 +17,7 @@
     "type": "short",
     "url": "https://www.youtube.com/watch?v=7HS6V0S7YbM",
     "country": "Canada",
-    "reviews": [
-      {
-        "reviewId": "603b1f330b7e9a3c82a74f02",
-        "userId": "603b1e0b0b7e9a3c82a74eff",
-        "rating": 4.5,
-        "content": "This movie was amazing!",
-        "timestamp": "2022-03-01T10:30:00Z"
-      }
-    ],
+    "reviews": [],
     "userCreator": {
       "userName": "gorge_alt",
       "userId": "6472a0f7bce995ad4b0ec274"
@@ -52,15 +44,7 @@
     "type": "short",
     "country": "USA",
     "url": "https://www.youtube.com/watch?v=vw5vcUPyL90",
-    "reviews": [
-      {
-        "reviewId": "603b1f330b7e9a3c82a74f02",
-        "userId": "603b1e0b0b7e9a3c82a74eff",
-        "rating": 4.5,
-        "content": "This movie was amazing!",
-        "timestamp": "2022-03-01T10:30:00Z"
-      }
-    ],
+    "reviews": [],
     "userCreator": {
       "userName": "gorge_alt",
       "userId": "6472a0f7bce995ad4b0ec274"

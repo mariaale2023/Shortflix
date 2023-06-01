@@ -6,7 +6,9 @@ const reviewSchema = new Schema({
   userName: String,
   id: String,
   movieId: String,
+  rating: Number,
+  content: String,
 });
 
-const User = mongoose.model("User", reviewSchema);
-module.exports = Idr;
+const Review = mongoose.model("Review", reviewSchema);
+module.exports = Review;
