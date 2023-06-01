@@ -19,7 +19,7 @@
     "country": "Canada",
     "reviews": [
       {
-        "id": "603b1f330b7e9a3c82a74f02",
+        "reviewId": "603b1f330b7e9a3c82a74f02",
         "userId": "603b1e0b0b7e9a3c82a74eff",
         "rating": 4.5,
         "content": "This movie was amazing!",
@@ -54,7 +54,7 @@
     "url": "https://www.youtube.com/watch?v=vw5vcUPyL90",
     "reviews": [
       {
-        "id": "603b1f330b7e9a3c82a74f02",
+        "reviewId": "603b1f330b7e9a3c82a74f02",
         "userId": "603b1e0b0b7e9a3c82a74eff",
         "rating": 4.5,
         "content": "This movie was amazing!",

@@ -15,7 +15,7 @@ const movieSchema = new Schema({
   country: String,
   reviews: [
     {
-      id: String,
+      reviewId: String,
       userId: String,
       rating: Number,
       content: String,

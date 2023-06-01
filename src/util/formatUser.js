@@ -1,6 +1,9 @@
 const formatUser = (user) => {
+  if (!user) {
+    return null; //
+  }
   return {
-    id: user._id,
+    id: user.id,
     userName: user.userName,
     password: user.password,
   };

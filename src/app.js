@@ -5,6 +5,7 @@ const movieSchema = require("./schema/movieSchema");
 const userSchema = require("./schema/useSchema");
 const formatMovieId = require("./util/formatMovie");
 const formatUser = require("./util/formatUser");
+const formatReview = require("./util/formatReview");
 const mongoose = require("mongoose");
 
 app.use(express.json());
@@ -43,6 +44,11 @@ app.get("/movies/:id", async (req, res) => {
 app.get("/users", async (req, res) => {
   const users = await userSchema.find({});
   return res.status(200).send(users.map(formatUser));
+});
+
+app.get("/reviews", async (req, res) => {
+  const reviews = await reviewSchema.find({});
+  return res.status(200).send(reviews.map(formatReview));
 });
 
 // CREATE REQUEST
