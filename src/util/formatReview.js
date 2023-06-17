@@ -3,10 +3,12 @@ const formatReview = (review) => {
     return null; //
   }
   return {
+    id: review.id,
     userId: review.userId,
     userName: review.userName,
-    id: review.id,
     movieId: review.movieId,
+    rating: review.rating,
+    content: review.content,
   };
 };
 

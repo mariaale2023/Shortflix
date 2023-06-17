@@ -4,31 +4,27 @@
     "userId": "6472a0f7bce995ad4b0ec274",
     "rating": 5,
     "content": "This movie was amazing!",
-    "movieId" :"64729febc6c9137e388ef706"
-    
+    "movieId": "64729febc6c9137e388ef706"
   },
   {
     "id": "64780f1e33a39817ffa0e3db",
     "userId": "64729f9c4c0ccf42b7466d84",
     "rating": 4.5,
     "content": "The best movie ever!",
-    "movieId" : "64729febc6c9137e388ef706"
-    
-  }
+    "movieId": "64729febc6c9137e388ef706"
+  },
   {
     "id": "64780f6396ff0b62db995031",
     "userId": "64780fd05873f9670ccb949e",
     "rating": 5,
     "content": "This movie was amazing!",
-    "movieId" : "64729ff08abd14a2697d089b"
-    
+    "movieId": "64729ff08abd14a2697d089b"
   },
   {
     "id": "64780f9795543f88c1c1f677",
     "userId": "6472a0f7bce995ad4b0ec274",
     "rating": 4.5,
     "content": "The best movie ever!",
-    "movieId" : "64729ff08abd14a2697d089b"
-    
+    "movieId": "64729ff08abd14a2697d089b"
   }
 ]
