@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
-// import "./movieList.css";
+import "./Movies.css";
 
 const MovieList = () => {
   const [movies, setMovies] = useState([]);
@@ -22,6 +22,7 @@ const MovieList = () => {
           return (
             <li className="movies" key={movie.id}>
               <img className="movie-img" src={movie.image} alt={movie.title} />
+
               {/* <div className="movie-text-box"> */}
               {/* <h2 className="movie-name">{movie.title}</h2> */}
               {/* <p className="movie-description">{movie.synopsis}</p> */}

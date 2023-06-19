@@ -248,15 +248,7 @@
     "country": "Argentina",
     "type": "short",
     "url": "https://www.youtube.com/watch?v=UXX0TRtg5Vk",
-    "reviews": [
-      {
-        "id": "603b1f330b7e9a3c82a74f02",
-        "userId": "603b1e0b0b7e9a3c82a74eff",
-        "rating": 4.5,
-        "content": "This movie was amazing!",
-        "timestamp": "2022-03-01T10:30:00Z"
-      }
-    ],
+    "reviews": [],
     "userCreator": {
       "userName": "mariaale",
       "userId": "64729f9c4c0ccf42b7466d84"
@@ -284,15 +276,7 @@
     "country": "Germany",
     "type": "short",
     "url": "https://www.youtube.com/watch?v=Djo_91jN3Pk",
-    "reviews": [
-      {
-        "id": "603b1f330b7e9a3c82a74f02",
-        "userId": "603b1e0b0b7e9a3c82a74eff",
-        "rating": 4.5,
-        "content": "This movie was amazing!",
-        "timestamp": "2022-03-01T10:30:00Z"
-      }
-    ],
+    "reviews": [],
     "userCreator": {
       "userName": "mariaale",
       "userId": "64729f9c4c0ccf42b7466d84"

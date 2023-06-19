@@ -1,13 +1,8 @@
-.header {
-  width: 40rem;
-  /* margin: 0 auto; */
-  /* padding: 0 3rem; */
-}
 .flex {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  gap: 10rem;
+  gap: 7rem;
 }
 
 .nav {
@@ -16,6 +11,11 @@
   justify-content: space-around;
   margin-top: 6.5rem;
 }
+
 li {
   list-style: none;
+}
+
+.logo {
+  width: 30%;
 }

@@ -1,4 +1,5 @@
 import "./Header.css";
+import "../App.css";
 // import { Link } from "react-router-dom";
 import Logo from "../logos/blackVerticaLogo.png";
 import LoginButton from "./LoginButton";
@@ -6,9 +7,9 @@ import Search from "./Search";
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header container">
       <div className="flex">
-        <img src={Logo} alt="logo" width="300" />
+        <img className="logo" src={Logo} alt="logo" />
         {/* <Link to="/" className="header-title">
           <img src={Logo} alt="logo" width="300" />
         </Link> */}

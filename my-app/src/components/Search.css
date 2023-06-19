@@ -5,15 +5,15 @@
   gap: 0.5rem;
 }
 .search {
-  width: 20rem;
+  width: 30rem;
   padding: 0.5rem 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border-radius: 0.3rem;
   border: 1px solid #fec603;
 }
 
 .icon-search {
-  font-size: 1.5rem;
+  font-size: 2rem;
   /* color: rgb(97, 54, 1); */
   color: #fec603;
 }

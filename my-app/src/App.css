@@ -1,33 +1,24 @@
-:root {
-  --shadow: 5px 7px 2px #04000d;
-  --border-radius: 0.5rem;
-  /* form violete to pink */
-  --background-color: linear-gradient(to top right, #fec603 #16d6fa);
-  --color: linear-gradient(to top right, #af87ce rgb(234, 26, 127));
-  --button-background1: #fec603;
-  --button-background2: #ea1a7f;
-  --button-background3: #16d6fa;
-  --color1: rgb(175, 135, 206);
-  --color2: #ea1a7f;
-  --color3: #fec603;
-  --color4: #a8f387;
-  --color5: #16d6fa;
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+html {
+  font-size: 62.5%;
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
   background-color: #000;
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
-
 .container {
-  width: 40rem;
+  width: 100rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  text-align: center;
 }
-
 img {
   max-width: 100%;
   height: auto;
@@ -37,4 +28,5 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
+  color: #fff;
 }
