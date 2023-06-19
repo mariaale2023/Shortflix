@@ -1,14 +1,14 @@
 .flex {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .nav {
   display: flex;
   gap: 8rem;
   justify-content: space-between;
-  margin-top: 5rem;
+  margin-top: 6.5rem;
 }
 li {
   list-style: none;

@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-// import "./RestaurantList.css";
+// import { Link } from "react-router-dom";
+// import "./movieList.css";
 
-const RestaurantList = () => {
-  const [restaurants, setRestaurants] = useState([]);
+const MovieList = () => {
+  const [movies, setMovies] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:5001/restaurants");
+      const response = await fetch("http://localhost:5001/movies");
       const data = await response.json();
-      setRestaurants(data);
+      setMovies(data);
     };
     fetchData();
   }, []);
@@ -17,23 +17,17 @@ const RestaurantList = () => {
   return (
     <>
       <h1>Movies</h1>
-      <ul className="restaurant-list">
-        {restaurants.map((restaurant) => {
+      <ul className="movie-list">
+        {movies.map((movie) => {
           return (
-            <li className="restaurant" key={restaurant.id}>
-              <img
-                className="restaurant-img"
-                src={restaurant.image}
-                alt={restaurant.name}
-              />
-              <div className="restaurant-text-box">
-                <h2 className="restaurant-name">{restaurant.name}</h2>
-                <p className="restaurant-description">
-                  {restaurant.description}
-                </p>
-                <Link className="btn" to={`/restaurants/${restaurant.id}`}>
+            <li className="movie" key={movie.id}>
+              <img className="movie-img" src={movie.image} alt={movie.title} />
+              <div className="movie-text-box">
+                <h2 className="movie-name">{movie.title}</h2>
+                <p className="movie-description">{movie.synopsis}</p>
+                {/* <Link className="btn" to={`/movies/${movie.id}`}>
                   Reserve now
-                </Link>
+                </Link> */}
               </div>
             </li>
           );
@@ -43,4 +37,4 @@ const RestaurantList = () => {
   );
 };
 
-export default RestaurantList;
+export default MovieList;

@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Search.css";
 
 const Search = ({ handleSearch }) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -13,15 +16,20 @@ const Search = ({ handleSearch }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Search movies..."
-        value={searchTerm}
-        onChange={handleChange}
-      />
-      <button type="submit">Search</button>
-    </form>
+    <div>
+      <form className="search-flex" onSubmit={handleSubmit}>
+        <input
+          type="text"
+          className="search"
+          placeholder="Search movies..."
+          value={searchTerm}
+          onChange={handleChange}
+        />
+        <button className="btn-icon" type="submit">
+          <FontAwesomeIcon className="icon-search" icon={faSearch} />
+        </button>
+      </form>
+    </div>
   );
 };
 

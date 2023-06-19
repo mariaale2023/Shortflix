@@ -1,0 +1,26 @@
+.search-flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 0.5rem;
+}
+.search {
+  width: 20rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #fec603;
+}
+
+.icon-search {
+  font-size: 1.5rem;
+  /* color: rgb(97, 54, 1); */
+  color: #fec603;
+}
+.btn-icon {
+  background-color: transparent;
+  /* border: 1px solid #fec603; */
+  border: none;
+  color: #fec603;
+  border-radius: 0.2rem;
+}
