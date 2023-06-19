@@ -7,7 +7,7 @@ import Search from "./Search";
 const Header = () => {
   return (
     <header className="header">
-      <div className="container flex">
+      <div className="flex">
         <img src={Logo} alt="logo" width="300" />
         {/* <Link to="/" className="header-title">
           <img src={Logo} alt="logo" width="300" />

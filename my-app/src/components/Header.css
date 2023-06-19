@@ -1,13 +1,19 @@
+.header {
+  width: 40rem;
+  /* margin: 0 auto; */
+  /* padding: 0 3rem; */
+}
 .flex {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  gap: 10rem;
 }
 
 .nav {
   display: flex;
-  gap: 8rem;
-  justify-content: space-between;
+  gap: 5rem;
+  justify-content: space-around;
   margin-top: 6.5rem;
 }
 li {
