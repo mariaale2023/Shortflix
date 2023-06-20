@@ -23,13 +23,13 @@ const MovieList = () => {
             <li className="movies" key={movie.id}>
               <img className="movie-img" src={movie.image} alt={movie.title} />
 
-              {/* <div className="movie-text-box"> */}
-              {/* <h2 className="movie-name">{movie.title}</h2> */}
-              {/* <p className="movie-description">{movie.synopsis}</p> */}
-              {/* <Link className="btn" to={`/movies/${movie.id}`}>
+              <div className="movie-text-box">
+                <h2 className="movie-name">{movie.title}</h2>
+                {/* <p className="movie-description">{movie.synopsis}</p> */}
+                {/* <Link className="btn" to={`/movies/${movie.id}`}>
                   Reserve now
                 </Link> */}
-              {/* </div> */}
+              </div>
             </li>
           );
         })}

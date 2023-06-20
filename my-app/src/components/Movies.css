@@ -1,9 +1,10 @@
 .movie-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .movies {
@@ -14,4 +15,26 @@
 .movie-img {
   width: 100%;
   /* height: 15rem; */
+}
+
+.movie-img {
+  width: 20rem;
+  height: 30rem;
+  object-fit: cover;
+  /* position: absute; */
+}
+
+.movie-text-box {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  color: #fff;
+}
+
+.movie-name {
+  margin: 0;
 }

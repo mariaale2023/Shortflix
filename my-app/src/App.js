@@ -6,6 +6,7 @@ import Movie from "./components/Movie";
 import SciFiMovies from "./components/FilterbySciFi";
 import AnimationMovies from "./components/FilterByAnimation";
 import ActionMovies from "./components/FilterByAction";
+import MovieCarousel from "./components/Carousel";
 
 const App = () => {
   // const { isLoading } = useAuth0();
@@ -17,6 +18,7 @@ const App = () => {
     <>
       <Header />
       <div className="container">
+        <MovieCarousel />
         <SciFiMovies />
         <AnimationMovies />
         <ActionMovies />

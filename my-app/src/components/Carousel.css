@@ -1,0 +1,29 @@
+.custom-carousel {
+  width: 50rem; /* Set the width of the carousel */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.carousel-img {
+  width: 100%; /* Set the width of the carousel image */
+  height: 30rem;
+  object-fit: cover; /* Ensure the image fills the container */
+}
+
+.carousel-caption {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Add a semi-transparent background to the caption */
+}
+
+.carousel-caption h3 {
+  color: white; /* Set the color of the movie title */
+  text-align: center; /* Center the movie title horizontally */
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}

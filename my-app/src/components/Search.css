@@ -19,8 +19,22 @@
 }
 .btn-icon {
   background-color: transparent;
-  /* border: 1px solid #fec603; */
+  border: 1px solid #fec603;
   border: none;
   color: #fec603;
   border-radius: 0.2rem;
+  padding: 0 0.5rem;
 }
+
+/* .search-wrapped {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.form-control {
+  outline: none;
+} */
+
+/* .form-control:focus {
+  border-color: #80bdff;
+} */
