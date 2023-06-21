@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Carousel.css";
@@ -26,7 +27,14 @@ const CarouselComponent = () => {
     <Carousel>
       {movies.map((movie) => (
         <Carousel.Item key={movie.id}>
-          <img className="d-block w-100" src={movie.image} alt={movie.title} />
+          <Link to={`/movies/${movie.id}`}>
+            <img
+              className="d-block w-100"
+              src={movie.image}
+              alt={movie.title}
+            />
+          </Link>
+
           <Carousel.Caption>
             <h3>{movie.title}</h3>
           </Carousel.Caption>

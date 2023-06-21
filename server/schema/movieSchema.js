@@ -5,7 +5,7 @@ const movieSchema = new Schema(
   {
     actors: [String],
     director: String,
-    duration: String,
+    duration: Number,
     genres: [String],
     host: String,
     image: String,
@@ -27,9 +27,9 @@ const movieSchema = new Schema(
       userName: String,
       userId: String,
     },
-    // releaseYear: String,
-    // likes: Number,
-    // dislikes: Number,
+    releaseYear: Number,
+    likes: Number,
+    dislikes: Number,
   },
   {
     toJSON: {

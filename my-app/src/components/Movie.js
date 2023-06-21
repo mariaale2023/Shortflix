@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import ReactPlayer from "react-player/youtube";
 // import BackButton from "./BackButton";
+import HeaderMoviePage from "./HeaderMoviePage";
+import "./Movie.css";
 
 const Movie = () => {
   const { id } = useParams();
@@ -39,12 +42,21 @@ const Movie = () => {
 
   return (
     <>
+      <HeaderMoviePage />
       <ul className="movie-list">
         <li className="movie" key={movie.id}>
-          <img className="movie-img" src={movie.image} alt={movie.title} />
-          <div className="movie-text-box">
-            <h2 className="movie-name">{movie.title}</h2>
-            <p className="movie-description">{movie.synopsis}</p>
+          <ReactPlayer url={movie.url} />
+          <div className="mov-text-box">
+            <h2 className="mov-name">{movie.title}</h2>
+            <p className="mov-description">Director: {movie.director}</p>
+            <p className="mov-description">Durantion: {movie.durantion} sec</p>
+            <p className="mov-description">Genres: {movie.genres}</p>
+            <p className="mov-description">Country: {movie.country}</p>
+            <p className="mov-description">Release Year: {movie.releaseYear}</p>
+            <p className="mov-description">Cast: {movie.actors}</p>
+            <p className="mov-description">{movie.synopsis}</p>
+            <p className="mov-description">Likes: {movie.likes}</p>
+            <p className="mov-description">Dislikes: {movie.dislike}</p>
           </div>
         </li>
       </ul>

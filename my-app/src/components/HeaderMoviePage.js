@@ -1,19 +1,22 @@
 import React from "react";
 // import { Routes, Route } from "react-router-dom";
 
-import Logo from "../logos/blackVerticaLogo.png";
+import Logo from "../logos/blackHorizontal.png";
 import LoginButton from "./LoginButton";
 import Search from "./Search";
+import "./HeaderMoviePage.css";
 
-const Header = () => {
+const HeaderMoviePage = () => {
   return (
     <header className="header container">
-      <div className="flex">
-        <a href="/">
-          <img className="logo" src={Logo} alt="logo" />
-        </a>
-
-        <ul className="nav">
+      <div className="">
+        <ul className="nav flex">
+          <li>
+            {" "}
+            <a href="/">
+              <img className="logo" src={Logo} alt="logo" />
+            </a>
+          </li>
           <li>
             <Search />
           </li>
@@ -26,4 +29,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderMoviePage;
