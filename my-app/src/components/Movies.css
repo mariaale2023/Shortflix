@@ -38,3 +38,7 @@
 .movie-name {
   margin: 0;
 }
+
+.box-collapse {
+  display: inline;
+}
