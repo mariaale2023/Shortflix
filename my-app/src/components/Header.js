@@ -29,7 +29,8 @@
 // export default Header;
 
 import React from "react";
-import "./Header.css";
+// import { Routes, Route } from "react-router-dom";
+
 import Logo from "../logos/blackVerticaLogo.png";
 import LoginButton from "./LoginButton";
 import Search from "./Search";
@@ -38,7 +39,10 @@ const Header = () => {
   return (
     <header className="header container">
       <div className="flex">
-        <img className="logo" src={Logo} alt="logo" />
+        <a href="/">
+          <img className="logo" src={Logo} alt="logo" />
+        </a>
+
         <ul className="nav">
           <li>
             <Search />

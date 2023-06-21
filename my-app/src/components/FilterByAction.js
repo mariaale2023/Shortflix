@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./FilterByBox.css";
 
 const ActionMovies = () => {
@@ -24,7 +25,9 @@ const ActionMovies = () => {
       <div className="filter-by-genres">
         {filteredMovies.map((movie) => (
           <div className="movie-filter" key={movie.id}>
-            <img className="img-filter" src={movie.image} alt={movie.title} />
+            <Link to={`/movies/${movie.id}`}>
+              <img className="img-filter" src={movie.image} alt={movie.title} />
+            </Link>
           </div>
         ))}
       </div>

@@ -1,18 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import { useNavigate } from "react-router-dom";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Search.css";
-// import axios from "axios";
+import axios from "axios";
 
 const Search = ({ handleSearch }) => {
   const [key, setKey] = useState("");
-  // const [searchResult, setSearchResult] = useState("");
+  const [searchResult, setSearchResult] = useState("");
   // const navigate = useNavigate();
 
-  // const handleChange = (e) => {
-  //   setKey(e.target.value);
-  // };
+  const handleChange = (e) => {
+    setKey(e.target.value);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,45 +22,45 @@ const Search = ({ handleSearch }) => {
     // }
   };
 
-  // useEffect(() => {
-  //   const search = async () => {
-  //     try {
-  //       if (!key.trim()) {
-  //         setSearchResult([]);
-  //         return;
-  //       }
-  //       const res = await axios.get("http://localhost:5001/movies", {
-  //         params: { key: key, limit: 5 },
-  //       });
-  //       setSearchResult(res.data.data);
-  //       console.log(res);
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   };
-  //   search();
-  // }, [key]);
+  useEffect(() => {
+    const search = async () => {
+      try {
+        if (!key.trim()) {
+          setSearchResult([]);
+          return;
+        }
+        const res = await axios.get("http://localhost:5001/movies", {
+          params: { key: key, limit: 5 },
+        });
+        setSearchResult(res.data.data);
+        console.log(res);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    search();
+  }, [key]);
 
-  const fetchData = (value) => {
-    fetch("http://localhost:5001/movies")
-      .then((response) => response.json())
-      .then((json) => {
-        // const results = json.filter((movie) => {
-        // return (
-        //     value &&
-        //     movie &&
-        //     movie.title &&
-        //     movie.title.toLowerCase().includes(value)
-        //   );
-        // });
-        console.log(json);
-      });
-  };
+  // const fetchData = (value) => {
+  //   fetch("http://localhost:5001/movies")
+  //     .then((response) => response.json())
+  //     .then((json) => {
+  //       // const results = json.filter((movie) => {
+  //       // return (
+  //       //     value &&
+  //       //     movie &&
+  //       //     movie.title &&
+  //       //     movie.title.toLowerCase().includes(value)
+  //       //   );
+  //       // });
+  //       console.log(json);
+  //     });
+  // };
 
-  const handleChange = (value) => {
-    setKey(value);
-    fetchData(value);
-  };
+  // const handleChange = (value) => {
+  //   setKey(value);
+  //   fetchData(value);
+  // };
 
   return (
     <div>
@@ -76,7 +76,7 @@ const Search = ({ handleSearch }) => {
           onChange={handleChange}
         />
 
-        {/* {searchResult && searchResult.length > 0 && (
+        {searchResult && searchResult.length > 0 && (
           <div className="search-result">
             {searchResult.map((movie) => (
               <div className="result-item" key={movie.id}>
@@ -89,7 +89,7 @@ const Search = ({ handleSearch }) => {
               </div>
             ))}
           </div>
-        )} */}
+        )}
       </form>
     </div>
   );

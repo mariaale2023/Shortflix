@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Movies.css";
 
 const MovieList = () => {
@@ -21,7 +21,14 @@ const MovieList = () => {
         {movies.map((movie) => {
           return (
             <li className="movies" key={movie.id}>
-              <img className="movie-img" src={movie.image} alt={movie.title} />
+              <Link to={`/movies/${movie.id}`}>
+                <img
+                  className="movie-img"
+                  src={movie.image}
+                  alt={movie.title}
+                />
+              </Link>
+              {/* <img className="movie-img" src={movie.image} alt={movie.title} /> */}
 
               <div className="movie-text-box">
                 <h2 className="movie-name">{movie.title}</h2>

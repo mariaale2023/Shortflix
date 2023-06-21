@@ -1,3 +1,6 @@
+.carousel {
+  margin-top: 2rem;
+}
 .custom-carousel {
   width: 50rem; /* Set the width of the carousel */
   margin: 0 auto; /* Center the carousel horizontally */
