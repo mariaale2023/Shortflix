@@ -21,13 +21,14 @@ const ActionMovies = () => {
 
   return (
     <>
-      <h1 className="title-filter-genres">Action Movies</h1>
+      <h1 className="title-filter-genres">Action</h1>
       <div className="filter-by-genres">
         {filteredMovies.map((movie) => (
           <div className="movie-filter" key={movie.id}>
             <Link to={`/movies/${movie.id}`}>
               <img className="img-filter" src={movie.image} alt={movie.title} />
             </Link>
+            <h2 className="movie-name-filter">{movie.title}</h2>
           </div>
         ))}
       </div>

@@ -1,10 +1,13 @@
+.title-section-movies {
+  margin-top: 4rem;
+}
+
 .movies-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
+  grid-template-columns: repeat(1, 1fr);
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0.2rem;
 }
 
 .movies {
@@ -18,8 +21,8 @@
 }
 
 .movie-img {
-  width: 20rem;
-  height: 30rem;
+  width: 100%;
+  /* height: 80%; */
   object-fit: cover;
   /* position: absute; */
 }
@@ -41,4 +44,10 @@
 
 .box-collapse {
   display: inline;
+}
+
+@media only screen and (min-width: 600px) {
+  .movies-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

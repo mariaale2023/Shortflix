@@ -10,5 +10,11 @@
 }
 
 .img-filter {
-  width: 90%;
+  width: 16rem;
+  border-radius: 0.5rem;
+}
+
+.movie-name-filter {
+  font-size: 1rem;
+  padding-top: 1rem;
 }
