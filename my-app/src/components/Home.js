@@ -6,6 +6,7 @@ import SciFiMovies from "./FilterbySciFi";
 import AnimationMovies from "./FilterByAnimation";
 import ActionMovies from "./FilterByAction";
 import MovieCarousel from "./Carousel";
+import Footer from "./Footer";
 
 const Home = () => {
   // const { isLoading } = useAuth0();
@@ -23,6 +24,7 @@ const Home = () => {
         <ActionMovies />
         <MoviesList />
       </div>
+      <Footer />
     </>
   );
 };

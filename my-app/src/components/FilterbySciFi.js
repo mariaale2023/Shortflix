@@ -25,7 +25,7 @@ const SciFiMovies = () => {
       <div className="filter-by-genres">
         {filteredMovies.map((movie) => (
           <div className="movie-filter" key={movie.id}>
-            <Link to={`/movies/${movie.id}`}>
+            <Link classsName="img-wrapped" to={`/movies/${movie.id}`}>
               <img className="img-filter" src={movie.image} alt={movie.title} />
             </Link>
             <h2 className="movie-name-filter">{movie.title}</h2>

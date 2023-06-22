@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import ReactPlayer from "react-player/youtube";
 import { Collapse } from "react-bootstrap";
 import HeaderMoviePage from "./HeaderMoviePage";
+import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { faThumbsUp, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -125,6 +126,7 @@ const Movie = () => {
           </div>
         </li>
       </ul>
+      <Footer />
     </>
   );
 };

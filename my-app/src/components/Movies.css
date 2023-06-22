@@ -3,50 +3,55 @@
 }
 
 .movies-list {
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
+  color: white;
 }
 
 .movies {
+  position: relative;
   list-style: none;
   /* margin: 10px; */
 }
 
 .movie-img {
   width: 100%;
-  /* height: 15rem; */
-}
-
-.movie-img {
-  width: 100%;
   /* height: 80%; */
   object-fit: cover;
-  /* position: absute; */
-}
-
-.movie-text-box {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 1rem;
-  color: #fff;
+  position: relative;
 }
 
 .movie-name {
   margin: 0;
+  width: 100%;
+  font-size: 1.5rem;
+  letter-spacing: 0.8px;
+  position: absolute;
+  bottom: 1rem;
+
+  /* transform: translate(-50%, -50%); */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  z-index: 1;
 }
 
 .box-collapse {
   display: inline;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 576px) {
+  .movies-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
   .movies-list {
     grid-template-columns: repeat(3, 1fr);
   }

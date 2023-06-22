@@ -11,7 +11,7 @@ const MovieList = () => {
       const data = await response.json();
       // setMovies(data);
 
-      const reversedData = data.reverse().slice(0, 5); // Reverse the array of movies
+      const reversedData = data.reverse().slice(0, 6); // Reverse the array of movies
       setMovies(reversedData);
     };
     fetchData();
@@ -31,15 +31,8 @@ const MovieList = () => {
                   alt={movie.title}
                 />
               </Link>
-              {/* <img className="movie-img" src={movie.image} alt={movie.title} /> */}
 
-              {/* <div className="movie-text-box"> */}
-              {/* <h2 className="movie-name">{movie.title}</h2> */}
-              {/* <p className="movie-description">{movie.synopsis}</p> */}
-              {/* <Link className="btn" to={`/movies/${movie.id}`}>
-                  Reserve now
-                </Link> */}
-              {/* </div> */}
+              <h2 className="movie-name">{movie.title}</h2>
             </li>
           );
         })}

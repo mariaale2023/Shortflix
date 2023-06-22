@@ -1,20 +1,32 @@
 .title-filter-genres {
   margin-top: 5rem;
 }
+
 .filter-by-genres {
-  /* width: 40rem; */
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
   margin: 1rem auto;
 }
-
 .img-filter {
-  width: 16rem;
+  width: 100%;
   border-radius: 0.5rem;
 }
 
 .movie-name-filter {
   font-size: 1rem;
   padding-top: 1rem;
+}
+
+@media (min-width: 576px) {
+  .movie-name-filter {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .movie-name-filter {
+    font-size: 1.8rem;
+  }
 }
