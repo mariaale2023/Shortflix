@@ -21,7 +21,7 @@ const SciFiMovies = () => {
 
   return (
     <>
-      <h1 className="title-filter-genres">Sci-Fi</h1>
+      <h1 className="title-filter-genres">SCI-FI</h1>
       <div className="filter-by-genres">
         {filteredMovies.map((movie) => (
           <div className="movie-filter" key={movie.id}>

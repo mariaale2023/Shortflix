@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
 import ReactPlayer from "react-player/youtube";
+import { useParams } from "react-router-dom";
 import { Collapse } from "react-bootstrap";
-import HeaderMoviePage from "./HeaderMoviePage";
-import Footer from "./Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { faThumbsUp, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import Footer from "./Footer";
+import HeaderMoviePage from "./HeaderMoviePage";
+import Reviews from "./Reviews";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Movie.css";
 
 const Movie = () => {
@@ -126,6 +126,7 @@ const Movie = () => {
           </div>
         </li>
       </ul>
+      <Reviews />
       <Footer />
     </>
   );

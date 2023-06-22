@@ -21,7 +21,7 @@ const ActionMovies = () => {
 
   return (
     <>
-      <h1 className="title-filter-genres">Action</h1>
+      <h1 className="title-filter-genres">ACTION</h1>
       <div className="filter-by-genres">
         {filteredMovies.map((movie) => (
           <div className="movie-filter" key={movie.id}>
