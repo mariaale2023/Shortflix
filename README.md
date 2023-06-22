@@ -4,7 +4,16 @@ The Shortflix Blog is a web application that allows users to share and discover 
 
 ## Key Features
 
--[ ] User Authentication: Allow users to sign up, log in, and manage their accounts. -[x] Movie Database: Maintain a database of movies with details such as title, release year, genre, director, and synopsis. -[x] Display Movie by genres like Sci-fi, action, animation. -[x] Display Movie by Last release. -[ ] Movie Reviews: Enable users to write reviews for movies they have watched and provide ratings. -[ ] Movie Search: Implement a search functionality that allows users to find movies based on title, genre, or director. -[ ] User Interactions: Allow users to comment on movie reviews, like reviews, and follow other users. -[ ] User Profile: Provide users with a profile page where they can view and edit their information, manage their reviews, and see their activity history. -[ ] Trending Movies: Display a list of popular and trending movies based on user ratings and reviews. -[x] Responsive Design: Ensure that the application is accessible and user-friendly on different devices and screen sizes.
+- [ ] User Authentication: Allow users to sign up, log in, and manage their accounts.
+- [x] Movie Database: Maintain a database of movies with details such as title, release year, genre, director, and synopsis.
+- [x] Display Movie by genres like Sci-fi, action, animation.
+- [x] Display Movie by Last release.
+- [ ] Movie Reviews: Enable users to write reviews for movies they have watched and provide ratings.
+- [ ] Movie Search: Implement a search functionality that allows users to find movies based on title, genre, or director.
+- [ ] User Interactions: Allow users to comment on movie reviews, like reviews, and follow other users.
+- [ ] User Profile: Provide users with a profile page where they can view and edit their information, manage their reviews, and see their activity history.
+- [ ] Trending Movies: Display a list of popular and trending movies based on user ratings and reviews.
+- [x] Responsive Design: Ensure that the application is accessible and user-friendly on different devices and screen sizes.
 
 ## Technology Stack
 
