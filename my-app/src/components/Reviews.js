@@ -40,7 +40,7 @@ const Reviews = () => {
     return <p>Loading...</p>;
   }
   return (
-    <section>
+    <section className="section-reviews">
       <h2>Reviews</h2>
       {reviews.length === 0 ? (
         <p>No reviews for this movies</p>
