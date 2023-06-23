@@ -63,7 +63,10 @@ const Movie = () => {
       <HeaderMoviePage />
       <ul className="movie-list">
         <li className="movie" key={movie.id}>
-          <ReactPlayer url={movie.url} />
+          <div className="movie-video">
+          <ReactPlayer url={movie.url}/>
+          </div>
+          
           <div className="mov-text-box">
             <h2 className="mov-name">{movie.title}</h2>
             <div className="likes-wrapped">

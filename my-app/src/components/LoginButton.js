@@ -1,8 +1,14 @@
 import "./LoginButton.css";
 // import { useAuth0 } from "@auth0/auth0-react";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const LoginButton = () => {
+  const navigate = useNavigate();
+
+  const navigateHome = () => {
+    // 👇️ navigate to /
+    navigate("/");
+  };
   // const { loginWithRedirect, logout, isAuthenticated, isLoading } = useAuth0();
   // // const navigate = useNavigate();
 
@@ -26,6 +32,7 @@ const LoginButton = () => {
     <button
       className="btn-login"
       // onClick={() => loginWithRedirect()}
+      onClick={() => navigateHome()}
     >
       Log In
     </button>

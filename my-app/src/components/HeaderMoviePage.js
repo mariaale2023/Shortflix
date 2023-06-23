@@ -8,19 +8,18 @@ import "./HeaderMoviePage.css";
 
 const HeaderMoviePage = () => {
   return (
-    <header className="header container">
+    <header className="header-movie">
       <div className="">
-        <ul className="nav flex">
-          <li>
-            {" "}
+        <ul className="nav box">
+          <li className="header-logo-movie">
             <a href="/">
               <img className="logo" src={Logo} alt="logo" />
             </a>
           </li>
-          <li>
+          <li className="nav-search-movie">
             <Search />
           </li>
-          <li className="nav-item">
+          <li className="nav-login-movie">
             <LoginButton />
           </li>
         </ul>

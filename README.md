@@ -46,7 +46,7 @@ The project will be developed using the MERN stack, which includes the following
    - Deployment and Hosting:
    - Set up the production environment for the application.
 
-6. Deploy the backend server to a hosting platform (e.g., Heroku, AWS, or Azure).
+6. Deploy the backend server to a hosting platform.
 7. Deploy the frontend application to a static hosting platform (e.g., Netlify or Vercel).
 
    - Configure the necessary environment variables and ensure the application runs smoothly in the production environment.
