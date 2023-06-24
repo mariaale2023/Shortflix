@@ -3,7 +3,10 @@ const port = process.env.PORT || 5001;
 const app = require("./app");
 
 // connect Mongoose
-mongoose.connect("mongodb://localhost:27017/mongo");
+
+const mongoDbUri = process.env.MONGO_URI || "mongodb://localhost:27017/mongo";
+
+mongoose.connect(mongoDbUri);
 
 // Liste APP
 app.listen(port, () => {
