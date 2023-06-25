@@ -66,7 +66,7 @@ const Movie = () => {
       <ul className="movie-list">
         <li className="movie" key={movie.id}>
           <div className="movie-video">
-            <ReactPlayer url={movie.url} />
+            <ReactPlayer url={movie.url} width="100%" />
           </div>
 
           <div className="mov-text-box">
