@@ -29,7 +29,7 @@ const Search = ({ handleSearch }) => {
   //         setSearchResult([]);
   //         return;
   //       }
-  //       const res = await axios.get("http://localhost:5001/movies", {
+  //       const res = await axios.get(`${process.env.REACT_APP_API_URL}/movies`, {
   //         params: { key: key, limit: 5 },
   //       });
   //       setSearchResult(res.data.data);

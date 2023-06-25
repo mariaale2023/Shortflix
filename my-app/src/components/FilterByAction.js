@@ -7,7 +7,7 @@ const ActionMovies = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:5001/movies");
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/movies`);
       const data = await response.json();
       setMovies(data);
     };

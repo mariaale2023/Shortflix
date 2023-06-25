@@ -13,7 +13,7 @@ const Reviews = () => {
       const fetchReviews = async () => {
         try {
           const response = await fetch(
-            `http://localhost:5001/movies/${movieId}/reviews`
+            `${process.env.REACT_APP_API_URL}/movies/${movieId}/reviews`
           );
           if (!response.ok) {
             throw new Error("Failed to fetch reviews");

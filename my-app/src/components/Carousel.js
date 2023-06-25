@@ -11,7 +11,7 @@ const CarouselComponent = () => {
     // Fetch the movies data from the database
     const fetchMovies = async () => {
       try {
-        const response = await fetch("http://localhost:5001/movies"); // Replace with your API endpoint
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/movies`); // Replace with your API endpoint
         const data = await response.json();
         const lastFourMovies = data.slice(-4); // Get the last 4 movies from the array
         setMovies(lastFourMovies);

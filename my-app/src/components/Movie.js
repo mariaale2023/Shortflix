@@ -20,7 +20,9 @@ const Movie = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const fetchUrl = await fetch(`http://localhost:5001/movies/${id}`);
+      const fetchUrl = await fetch(
+        `${process.env.REACT_APP_API_URL}/movies/${id}`
+      );
 
       if (fetchUrl.ok === false) {
         setIsNotFound(true);
@@ -64,9 +66,9 @@ const Movie = () => {
       <ul className="movie-list">
         <li className="movie" key={movie.id}>
           <div className="movie-video">
-          <ReactPlayer url={movie.url}/>
+            <ReactPlayer url={movie.url} />
           </div>
-          
+
           <div className="mov-text-box">
             <h2 className="mov-name">{movie.title}</h2>
             <div className="likes-wrapped">
