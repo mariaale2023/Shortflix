@@ -3,9 +3,9 @@
 The Shortflix Blog is a web application that allows users to share and discover information about their favorite movies. Users can create accounts, browse through a collection of movies, read and write reviews, and interact with other movie enthusiasts through comments and likes.
 
 [Demo](https://shortflixmovies-app.onrender.com/)
-![Shortflix Demo Web view ](interfaz_img/home.jpeg)
-![Shortflix Demo Web view ](interfaz_img/movie.jpeg)
-![Shortflix Demo Web view ](interfaz_img/lastRelease.jpeg)
+![Shortflix Demo Web view ](interfaz_img/homeMedium.jpeg)
+![Shortflix Demo Web view ](interfaz_img/movieMedium.jpeg)
+![Shortflix Demo Web view ](interfaz_img/lastReleaseMedium.jpeg)
 
 ## Key Features
 
