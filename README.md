@@ -7,8 +7,10 @@ The Shortflix Blog is a web application that allows users to share and discover 
 ## Intefaz View
 
 ![Shortflix Demo Web view ](interfaz_img/homeMedium.jpeg)
-![Shortflix Demo Web view ](interfaz_img/movieMedium.jpeg)
+
 ![Shortflix Demo Web view ](interfaz_img/lastReleaseMedium.jpeg)
+
+![Shortflix Demo Web view ](interfaz_img/movieMedium.jpeg)
 
 ## Key Features
 
