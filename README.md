@@ -1,6 +1,4 @@
 # Shortflix
-![shorts](short.jpg)
-*image created by dall-e*
 
 ## Project Brief
 
